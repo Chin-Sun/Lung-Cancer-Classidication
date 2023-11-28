@@ -15,8 +15,8 @@ Do performance and operation measurement
 #Main functions of my project: My service can help users to detect whether they have lung cancer or not with the help of AI-driven image analysis. What they need to do is to upload their lung image on our application. And then they can get a result which will show their diagnomic results
 
 ## Folders Introduction: 
----'Data': dataset to train my image classification model 
----'test_data': data used by testing my service 
+---'Data': dataset to train my image classification model  
+---'test_data': data used by testing my service   
 ---'hugging_face_configfile': these config files of my pre-trained model
 
 Here is my hugging face model link: https://huggingface.co/olp0qlo/lung-cancer-classification
