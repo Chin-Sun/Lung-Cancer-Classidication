@@ -5,20 +5,21 @@ Cloud and open community provide pre-trained models that can be leveraged to del
 
 # Project Tasks:
 
-Utilize a Cloud platform such as Amazon EC2. And take advantage of S3 or DynamoDB.
-Design the data model of your services.
-Use a NoSQL data store for managing the data of your application.
-Select a Hugging face model or a Cloud AI service to integrate
-Develop and deploy the service with integration to 4.
-Expose REST/Open APIs to SwaggerHub
-Do performance and operation measurement
-#Main functions of my project: My service can help users to detect whether they have lung cancer or not with the help of AI-driven image analysis. What they need to do is to upload their lung image on our application. And then they can get a result which will show their diagnomic results
+1. Utilize a Cloud platform such as Amazon EC2. And take advantage of S3 or DynamoDB.
+2. Design the data model of your services.  
+3. Use a NoSQL data store for managing the data of your application.  
+4. Select a Hugging face model or a Cloud AI service to integrate  
+5. Develop and deploy the service with integration to 4
+6. Expose REST/Open APIs to SwaggerHub
+7. Do performance and operation measurement  
+## Main function of my project: 
+My service can help users to detect whether they have lung cancer or not with the help of AI-driven image analysis. What they need to do is to upload their lung image on our application. And then they can get a result which will show their diagnosis results
 
-## Folders Introduction: 
----'Data': dataset to train my image classification model  
----'test_data': data used by testing my service   
----'hugging_face_configfile': these config files of my pre-trained model
+## Folder and Link Introduction:   
+---'img': data used by testing my service     
 
-Here is my hugging face model link: https://huggingface.co/olp0qlo/lung-cancer-classification
+Here is my hugging face model link: https://huggingface.co/olp0qlo/lung-cancer-classification  
 
-Here is the public URL for my service: http://35.87.24.51/
+Here is the public URL for my service: http://35.87.24.51/  
+
+Here is my dataset link on AWS S3: https://lung-cancer-image-storage.s3.amazonaws.com/dataset/Data  
