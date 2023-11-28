@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="/path/to/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8">
+    <title>Upload Image to S3 and Get Prediction</title>
+</head>
+<body>
+    <h1>Upload Image to S3 and Get Prediction</h1>
+    <input type="file" id="fileInput">
+    <button onclick="uploadAndPredict()">Upload and Predict</button>
+
+    <div id="predictionResult" style="display: none;">
+        <h2>Prediction Result:</h2>
+        <p id="predictedClass"></p>
+        <p id="predictionMessage"></p>
+    </div>
+
+    <script>
+        async function uploadAndPredict() {
+            const fileInput = document.getElementById('fileInput');
+            const file = fileInput.files[0];
+
+            // Upload image to FastAPI server
+            const formData = new FormData();
+            formData.append('file', file);
+
+            const uploadResponse = await fetch('/upload', {
+                method: 'POST',
+                body: formData
+            });
+
+            if (!uploadResponse.ok) {
+                alert('Error occurred while uploading. Please try again.');
+                return;
+            }
+
+            // Get prediction from FastAPI server
+            const predictResponse = await fetch('/prediction', {
+                method: 'POST',
+                body: formData
+            });
+
+            if (predictResponse.ok) {
+                const prediction = await predictResponse.json();
+                displayPredictionResult(prediction.prediction);
+            } else {
+                alert('Error occurred while predicting. Please try again.');
+            }
+        }
+
+        function displayPredictionResult(prediction) {
+            const predictionElement = document.getElementById('predictedClass');
+            const messageElement = document.getElementById('predictionMessage');
+            predictionElement.textContent = `Predicted Class: ${prediction}`;
+            document.getElementById('predictionResult').style.display = 'block';
+
+            // Check the predicted class and display the corresponding message
+            if (prediction === "Adenocarcinoma" || prediction === "Large Cell Carcinoma" || prediction === "Squamous Cell Carcinoma") {
+                messageElement.textContent = "You may have lung cancer. Please contact our doctor who will try their best to help you.";
+            } else if (prediction === "Normal lung") {
+                messageElement.textContent = "You are not sick. If you need any help, you can contact with our doctors anytime.";
+            }
+        }
+    </script>
+</body>
+</html>
