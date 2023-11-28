@@ -1,0 +1,9 @@
+The requirements file is only for running flask. It is not for training model and get its config files.
+
+python==3.8
+pytorch
+flask
+boto3
+transformers
+pillow
+python-dotenv
