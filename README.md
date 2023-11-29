@@ -12,7 +12,6 @@ Cloud and open community provide pre-trained models that can be leveraged to del
 5. Develop and deploy the service with integration to 4
 6. Expose REST/Open APIs to SwaggerHub
 7. Do performance and operation measurement  
-
 # My Demo Vedio（09.2023-11.2023）
 [![Lung Cancer Classification](https://img.youtube.com/vi/3dOk_ofCyZ0/0.jpg)](https://youtu.be/3dOk_ofCyZ0)
 
@@ -25,9 +24,3 @@ My service can help users to detect whether they have lung cancer or not with th
 Here is my hugging face model link: https://huggingface.co/olp0qlo/lung-cancer-classification  
 
 Here is the public URL for my service: http://35.87.24.51/  
-
-Here is my dataset link on AWS S3: https://lung-cancer-image-storage.s3.amazonaws.com/dataset/Data  
-
-
-
-
