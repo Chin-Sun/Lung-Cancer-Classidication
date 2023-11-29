@@ -25,6 +25,6 @@ Here is the public URL for my service: http://35.87.24.51/
 Here is my dataset link on AWS S3: https://lung-cancer-image-storage.s3.amazonaws.com/dataset/Data  
 
 # My Demo Vedio（09.2023-11.2023）
-[![Lung Cancer Classification](https://res.cloudinary.com/marcomontalbano/image/upload/v1654679836/video_to_markdown/images/youtube--3dOk_ofCyZ0-0.jpg)](https://youtu.be/3dOk_ofCyZ0)
+[![Lung Cancer Classification](https://img.youtube.com/vi/3dOk_ofCyZ0/0.jpg)](https://youtu.be/3dOk_ofCyZ0)
 
 
