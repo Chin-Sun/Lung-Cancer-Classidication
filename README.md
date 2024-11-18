@@ -49,9 +49,21 @@ The Lung Cancer Classification System is an end-to-end solution designed to assi
 ### **Technical Requirements**  
 - Store and manage large amounts of data, including user information and high-resolution lung images.  
 - Ensure high availability and fault tolerance.  
-- Automate deployments and manage services consistently across environments.  
-
+- Automate deployments and manage services consistently across environments.
 ---
+
+## **Tech Stack**  
+
+- **Front-End**: HTML, CSS, JavaScript  
+- **Back-End**: FastAPI  
+- **Database**: MongoDB, AWS S3  
+- **Deployment**: AWS EC2, AWS Lambda, Ubuntu Server  
+- **Monitoring**: AWS CloudWatch  
+- **CI/CD**: GitHub Actions  
+- **Containerization**: Docker, Kubernetes 
+
+--- 
+
 
 ## **Project Details (STAR Method)**  
 
@@ -109,17 +121,6 @@ Develop a cloud-based system to classify lung cancer images with a focus on scal
 - Enhance **security measures** with advanced authentication and data encryption.  
 - Explore **cost optimization** strategies with **AWS Spot Instances** and **Lambda reserved concurrency**.  
  -->
----
-
-## **Tech Stack**  
-
-- **Front-End**: HTML, CSS, JavaScript  
-- **Back-End**: FastAPI  
-- **Database**: MongoDB, AWS S3  
-- **Deployment**: AWS EC2, AWS Lambda, Ubuntu Server  
-- **Monitoring**: AWS CloudWatch  
-- **CI/CD**: GitHub Actions  
-- **Containerization**: Docker, Kubernetes  
 
 ---
 
