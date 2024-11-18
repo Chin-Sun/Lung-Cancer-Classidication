@@ -81,7 +81,7 @@ Develop a cloud-based system to classify lung cancer images with a focus on scal
    - Implemented **CI/CD pipelines** using **GitHub Actions**, automating testing, building, and deployment.  
    - Containerized the application using **Docker** and managed microservices with **Kubernetes** for scalability and consistency.  
 
-### **Result**  
+### **Expected Result**  
 - Achieved **95% uptime** through efficient deployment and monitoring practices.  
 - Reduced deployment time by **30%** through CI/CD pipelines.  
 - Enhanced data retrieval and image classification, improving user experience.  
@@ -93,8 +93,9 @@ Develop a cloud-based system to classify lung cancer images with a focus on scal
 
 - **Cloud-First Design**: Optimized for cloud infrastructure, ensuring high availability and fault tolerance.  
 - **Hybrid Storage**: Leveraged MongoDB and AWS S3 for efficient data management.  
-- **Microservice Architecture**: Used Docker and Kubernetes for streamlined deployments and enhanced scalability.  
-
+- **Microservice Architecture**: Used Docker and Kubernetes for streamlined deployments and enhanced scalability.
+   
+<!--
 ---
 
 ## **Lessons Learned and Future Improvements**  
@@ -107,7 +108,7 @@ Develop a cloud-based system to classify lung cancer images with a focus on scal
 - Integrate **machine learning pipelines** for real-time model updates.  
 - Enhance **security measures** with advanced authentication and data encryption.  
 - Explore **cost optimization** strategies with **AWS Spot Instances** and **Lambda reserved concurrency**.  
-
+ -->
 ---
 
 ## **Tech Stack**  
@@ -124,5 +125,5 @@ Develop a cloud-based system to classify lung cancer images with a focus on scal
 
 Feel free to contribute or provide feedback!
 
-# My Demo Vedio（09.2023-11.2023）
+# My Demo Vedio
 [![Lung Cancer Classification](https://img.youtube.com/vi/3dOk_ofCyZ0/0.jpg)](https://youtu.be/3dOk_ofCyZ0)
