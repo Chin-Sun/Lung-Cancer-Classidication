@@ -1,4 +1,7 @@
 <!--
+# My Demo Vedio
+[![Lung Cancer Classification](https://img.youtube.com/vi/3dOk_ofCyZ0/0.jpg)](https://youtu.be/3dOk_ofCyZ0)
+
 # Project Introduction: 
 A service is accessible on the Internet. Its design follows RESTful architecture style that runs on the **AWS Cloud** platform and meets the requirements below. The service interface is defined on Dast API by using SwaggerHub open APIs.
 
@@ -26,6 +29,8 @@ Here is my hugging face model link: https://huggingface.co/olp0qlo/lung-cancer-c
 
 Here is the public URL for my service: http://35.87.24.51/  
 -->
+# My Demo Vedio
+[![Lung Cancer Classification](https://img.youtube.com/vi/3dOk_ofCyZ0/0.jpg)](https://youtu.be/3dOk_ofCyZ0)
 
 # **Lung Cancer Classification System on AWS**
 
@@ -126,5 +131,3 @@ Develop a cloud-based system to classify lung cancer images with a focus on scal
 
 Feel free to contribute or provide feedback!
 
-# My Demo Vedio
-[![Lung Cancer Classification](https://img.youtube.com/vi/3dOk_ofCyZ0/0.jpg)](https://youtu.be/3dOk_ofCyZ0)
