@@ -29,7 +29,7 @@ Here is the public URL for my service: http://35.87.24.51/
 
 # **Lung Cancer Classification System on AWS**
 
-**Project Duration**: Jan 2024 - Present  
+**Project Duration**: 1 month  
 
 ---
 
